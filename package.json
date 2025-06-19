@@ -1,0 +1,27 @@
+{
+  "name": "signaling-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "author": "hexaforce",
+  "license": "MIT",
+  "description": "signaling server for exchanging SDP/ICE in WebRTC",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fpv-jp/signaling"
+  },
+  "keywords": [
+    "fpv",
+    "vtx",
+    "vrx",
+    "drone",
+    "japan"
+  ],
+  "dependencies": {
+    "nanoid": "^5.1.5",
+    "ws": "^8.18.2"
+  }
+}
